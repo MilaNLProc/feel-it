@@ -6,12 +6,12 @@ FEEL-IT: Emotion and Sentiment Classification for the Italian Language
 .. image:: https://img.shields.io/pypi/v/feel_it.svg
         :target: https://pypi.python.org/pypi/feel_it
 
-.. image:: https://readthedocs.org/projects/feel-it/badge/?version=latest
-        :target: https://feel-it.readthedocs.io/en/latest/?version=latest
-        :alt: Documentation Status
+.. image:: https://github.com/MilaNLProc/feel-it/workflows/Python%20package/badge.svg
+        :target: https://github.com/MilaNLProc/feel-it/actions
 
-
-
+.. image:: https://img.shields.io/badge/License-MIT-blue.svg
+        :target: https://lbesson.mit-license.org/
+        :alt: License
 
 
 
@@ -35,12 +35,30 @@ Features
 * Emotion Classification (fear, joy, sadness, anger) in Italian
 * Sentiment Classification (positive, negative) in Italian
 
+Installing
+----------
 
-Quick Tutorial
---------------
+.. code-block:: bash
+
+    pip install -U feel-it
 
 How To Use
 ----------
+
+The two classifiers are very easy to use.
+
+.. code-block:: python
+
+    from feel_it import EmotionClassifier, SentimentClassifier
+    emotion_classifier = EmotionClassifier()
+
+    emotion_classifier.predict(["sono molto felice", "ma che cazzo vuoi", "sono molto triste"])
+    >> ['joy', 'anger', 'sadness']
+
+    sentiment_classifier = SentimentClassifier()
+
+    sentiment_classifier.predict(["sono molto felice", "ma che cazzo vuoi", "sono molto triste"])
+    >> ['positive', 'negative', 'negative']
 
 HuggingFace Models
 ------------------

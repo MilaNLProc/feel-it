@@ -1,24 +1,16 @@
 #!/usr/bin/env python
 
 """Tests for `feel_it` package."""
+from feel_it import EmotionClassifier, SentimentClassifier
 
-import pytest
+def test_classifiers_basic_functionality():
 
+    emotion_classifier = EmotionClassifier()
 
-from feel_it import feel_it
+    prediction = emotion_classifier.predict(["sono molto felice", "ma che cazzo vuoi", "sono molto triste"])
+    assert prediction == ['joy', 'anger', 'sadness']
 
+    sentiment_classifier = SentimentClassifier()
 
-@pytest.fixture
-def response():
-    """Sample pytest fixture.
-
-    See more at: http://doc.pytest.org/en/latest/fixture.html
-    """
-    # import requests
-    # return requests.get('https://github.com/audreyr/cookiecutter-pypackage')
-
-
-def test_content(response):
-    """Sample pytest test function with the pytest fixture as an argument."""
-    # from bs4 import BeautifulSoup
-    # assert 'GitHub' in BeautifulSoup(response.content).title.string
+    prediction = sentiment_classifier.predict(["sono molto felice", "ma che cazzo vuoi", "sono molto triste"])
+    assert prediction == ['positive', 'negative', 'negative']
