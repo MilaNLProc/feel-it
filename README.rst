@@ -32,7 +32,30 @@ We release an open-source Python library, so researchers can use a model trained
 Features
 --------
 
-* TODO
+* Emotion Classification (fear, joy, sadness, anger) in Italian
+* Sentiment Classification (positive, negative) in Italian
+
+
+Quick Tutorial
+--------------
+
+How To Use
+----------
+
+HuggingFace Models
+------------------
+
+You can find our HF Models here:
+
+
++------------------------------------------------------------------------+
+| Name                                              | Link               |
++===================================================+====================+
+| MilaNLProc/feel-it-italian-emotion                | `Emotion Model`_   |
++------------------------------------------------------------------------+
+| MilaNLProc/feel-it-italian-sentiment              | `Sentiment Model`_ |
++---------------------------------------------------+--------------------+
+
 
 Credits
 -------
@@ -41,3 +64,5 @@ This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypack
 
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
 .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+.. _`Sentiment Model`: https://huggingface.co/MilaNLProc/feel-it-italian-sentiment
+.. _`Emotion Model`: https://huggingface.co/MilaNLProc/feel-it-italian-emotion

@@ -2,7 +2,7 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification
 import torch
 from feel_it.dataset import TextDataset
 
-class FeelerSentiment:
+class SentimentClassifier:
 
     def __init__(self):
 
@@ -32,7 +32,7 @@ class FeelerSentiment:
 
         return [self.sentiment_map[k] for k in collect_outputs]
 
-class FeelerEmotion:
+class EmotionClassifier:
 
     def __init__(self):
 
