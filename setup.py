@@ -10,7 +10,8 @@ with open('README.rst') as readme_file:
 with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
-requirements = [ ]
+with open('requirements.txt') as f:
+    requirements = f.read().splitlines()
 
 setup_requirements = ['pytest-runner', ]
 
@@ -42,7 +43,7 @@ setup(
     setup_requires=setup_requirements,
     test_suite='tests',
     tests_require=test_requirements,
-    url='https://github.com/vinid/feel_it',
+    url='https://github.com/MilaNLProc/feel_it',
     version='0.1.0',
     zip_safe=False,
 )

@@ -6,6 +6,7 @@ Development Lead
 ----------------
 
 * Federico Bianchi <f.bianchi@unibocconi.it>
+* Debora Nozza <debora.nozza@unibocconi.it>
 
 Contributors
 ------------

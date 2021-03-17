@@ -1,13 +1,10 @@
-=======
-FEEL-IT
-=======
+======================================================================
+FEEL-IT: Emotion and Sentiment Classification for the Italian Language
+======================================================================
 
 
 .. image:: https://img.shields.io/pypi/v/feel_it.svg
         :target: https://pypi.python.org/pypi/feel_it
-
-.. image:: https://img.shields.io/travis/vinid/feel_it.svg
-        :target: https://travis-ci.com/vinid/feel_it
 
 .. image:: https://readthedocs.org/projects/feel-it/badge/?version=latest
         :target: https://feel-it.readthedocs.io/en/latest/?version=latest
@@ -16,7 +13,16 @@ FEEL-IT
 
 
 
-A python package for sentiment analysis and emotion recognition in italian
+
+
+Abstract
+--------
+
+Sentiment analysis is a common task to understand people's reactions online. Still, we often need more nuanced information: is the post negative because the user is angry or because they are sad?
+
+An abundance of approaches has been introduced for tackling both tasks. However, at least for Italian, they all treat only one of the tasks at a time. We introduce FEEL-IT, a novel benchmark corpus of Italian Twitter posts annotated with four basic emotions: anger, fear, joy, sadness. By collapsing them, we can also do sentiment analysis. We evaluate our corpus on benchmark datasets for both emotion and sentiment classification, obtaining competitive results.
+
+We release an open-source Python library, so researchers can use a model trained on FEEL-IT for inferring both sentiments and emotions from Italian text.
 
 
 * Free software: MIT license
