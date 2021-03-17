@@ -13,8 +13,6 @@ FEEL-IT: Emotion and Sentiment Classification for the Italian Language
         :target: https://lbesson.mit-license.org/
         :alt: License
 
-
-
 Abstract
 --------
 
@@ -29,6 +27,8 @@ We release an open-source Python library, so researchers can use a model trained
 * Documentation: https://feel-it.readthedocs.io.
 
 
+
+
 Features
 --------
 
@@ -41,6 +41,8 @@ Installing
 .. code-block:: bash
 
     pip install -U feel-it
+
+
 
 How To Use
 ----------
@@ -59,6 +61,23 @@ The two classifiers are very easy to use.
 
     sentiment_classifier.predict(["sono molto felice", "ma che cazzo vuoi", "sono molto triste"])
     >> ['positive', 'negative', 'negative']
+
+
+Citation
+--------
+
+Please use the following bibtex entry if you use this model in your project:
+
+::
+
+  @inproceedings{bianchi2021feel,
+    title = {{"FEEL-IT: Emotion and Sentiment Classification for the Italian Language"}},
+    author = "Bianchi, Federico and Nozza, Debora and Hovy, Dirk",
+    booktitle = "Proceedings of the 11th Workshop on Computational Approaches to Subjectivity, Sentiment and Social Media Analysis",
+    year = "2021",
+    publisher = "Association for Computational Linguistics",
+  }
+
 
 HuggingFace Models
 ------------------
