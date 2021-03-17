@@ -5,7 +5,11 @@ from feel_it.dataset import TextDataset
 class SentimentClassifier:
 
     def __init__(self):
-
+        """
+        Simple class initialization for the sentiment classifier,
+        the sentiment classification model is going to be downloaded
+        directly from huggingface
+        """
         self.sentiment_map = {0: "negative", 1: "positive"}
         self.tokenizer = AutoTokenizer.from_pretrained("MilaNLProc/feel-it-italian-sentiment")
         self.model = AutoModelForSequenceClassification.from_pretrained("MilaNLProc/feel-it-italian-sentiment")
@@ -13,6 +17,12 @@ class SentimentClassifier:
         self.device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
 
     def predict(self, sentences, batch_size=32):
+        """
+        Predicts the sentiment for the sentences in input
+        @param sentences: sentences to be classified with the sentiment classifier
+        @param batch_size: batch size for the network
+        @return:
+        """
         train_encodings = self.tokenizer(sentences,
                                     truncation=True,
                                     padding=True,
@@ -35,7 +45,11 @@ class SentimentClassifier:
 class EmotionClassifier:
 
     def __init__(self):
-
+        """
+        Simple class initialization for the emotion classifier,
+        the emotion classification model is going to be downloaded
+        directly from huggingface
+        """
         self.emotion_map = {0: "anger", 1: "fear", 2 : "joy", 3: "sadness"}
         self.tokenizer = AutoTokenizer.from_pretrained("MilaNLProc/feel-it-italian-emotion")
         self.model = AutoModelForSequenceClassification.from_pretrained("MilaNLProc/feel-it-italian-emotion")
@@ -43,6 +57,12 @@ class EmotionClassifier:
         self.device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
 
     def predict(self, sentences, batch_size=32):
+        """
+        Predicts the emotion for the sentences in input
+        @param sentences: sentences to be classified with the emotion classifier
+        @param batch_size: batch size for the network
+        @return:
+        """
         train_encodings = self.tokenizer(sentences,
                                     truncation=True,
                                     padding=True,
