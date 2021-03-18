@@ -109,7 +109,7 @@ Development Team
 ----------------
 
 * `Federico Bianchi`_ <f.bianchi@unibocconi.it> Bocconi University
-* `Debora Nozza`_ <s.terragni4@unibocconi.it> Bocconi University
+* `Debora Nozza`_ <debora.nozza@unibocconi.it> Bocconi University
 * `Dirk Hovy`_ <dirk.hovy@unibocconi.it> Bocconi University
 
 Credits
