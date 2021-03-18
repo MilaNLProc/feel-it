@@ -63,6 +63,7 @@ The two classifiers are very easy to use. You can also directly use our colab tu
 .. code-block:: python
 
     from feel_it import EmotionClassifier, SentimentClassifier
+    
     emotion_classifier = EmotionClassifier()
 
     emotion_classifier.predict(["sono molto felice", "ma che cazzo vuoi", "sono molto triste"])
