@@ -13,6 +13,10 @@ FEEL-IT: Emotion and Sentiment Classification for the Italian Language
         :target: https://lbesson.mit-license.org/
         :alt: License
 
+.. image:: https:https://img.shields.io/github/contributors/MilaNLProc/contextualized-topic-models
+    :target: https://colab.research.google.com/drive/1e8h__sK73r4uwknxRJfsCMC36dLuZBa8?usp=sharing
+    :alt: Colab Tutorial
+
 Abstract
 --------
 
@@ -42,12 +46,24 @@ Installing
 
     pip install -U feel-it
 
+Jump start Tutorials
+--------------------
 
+.. |colab1| image:: https:https://img.shields.io/github/contributors/MilaNLProc/contextualized-topic-models
+    :target: https://colab.research.google.com/drive/1e8h__sK73r4uwknxRJfsCMC36dLuZBa8?usp=sharing
+    :alt: Colab Tutorial
+
+
++--------------------------------------------------------------------------------+------------------+
+| Name                                                                           | Link             |
++================================================================================+==================+
+| Sentiment and Emotion Classification (stable **v1.0.2**)                       | |colab1|         |
++--------------------------------------------------------------------------------+------------------+
 
 How To Use
 ----------
 
-The two classifiers are very easy to use.
+The two classifiers are very easy to use. You can also directly use our colab tutorial!
 
 .. code-block:: python
 
