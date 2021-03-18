@@ -13,7 +13,7 @@ FEEL-IT: Emotion and Sentiment Classification for the Italian Language
         :target: https://lbesson.mit-license.org/
         :alt: License
 
-.. image:: https:https://img.shields.io/github/contributors/MilaNLProc/contextualized-topic-models
+.. image:: https://colab.research.google.com/assets/colab-badge.svg
     :target: https://colab.research.google.com/drive/1e8h__sK73r4uwknxRJfsCMC36dLuZBa8?usp=sharing
     :alt: Colab Tutorial
 
@@ -49,7 +49,7 @@ Installing
 Jump start Tutorials
 --------------------
 
-.. |colab1| image:: https:https://img.shields.io/github/contributors/MilaNLProc/contextualized-topic-models
+.. |colab1| image:: https://colab.research.google.com/assets/colab-badge.svg
     :target: https://colab.research.google.com/drive/1e8h__sK73r4uwknxRJfsCMC36dLuZBa8?usp=sharing
     :alt: Colab Tutorial
 
