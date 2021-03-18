@@ -112,12 +112,6 @@ Development Team
 * `Debora Nozza`_ <debora.nozza@unibocconi.it> Bocconi University
 * `Dirk Hovy`_ <dirk.hovy@unibocconi.it> Bocconi University
 
-Credits
--------
-
-This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
-To ease the use of the library we have also included the `rbo`_ package, all the rights reserved to the author of that package.
-
 Note
 ----
 
