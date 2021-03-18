@@ -2,7 +2,7 @@
 History
 =======
 
-1.0.2 (2021-03-18)
+1.0.3 (2021-03-18)
 ------------------
 
 * Release with starting documentation
