@@ -27,11 +27,6 @@ An abundance of approaches has been introduced for tackling both tasks. However,
 We release an open-source Python library, so researchers can use a model trained on FEEL-IT for inferring both sentiments and emotions from Italian text.
 
 
-* Free software: MIT license
-* Documentation: https://feel-it.readthedocs.io.
-
-
-
 
 Features
 --------
@@ -110,6 +105,24 @@ You can find our HF Models here:
 +---------------------------------------------------+--------------------+
 
 
+Development Team
+----------------
+
+* `Federico Bianchi`_ <f.bianchi@unibocconi.it> Bocconi University
+* `Debora Nozza`_ <s.terragni4@unibocconi.it> Bocconi University
+* `Dirk Hovy`_ <dirk.hovy@unibocconi.it> Bocconi University
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+To ease the use of the library we have also included the `rbo`_ package, all the rights reserved to the author of that package.
+
+Note
+----
+
+Remember that this is a research tool :)
+
 Credits
 -------
 
@@ -119,3 +132,6 @@ This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypack
 .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
 .. _`Sentiment Model`: https://huggingface.co/MilaNLProc/feel-it-italian-sentiment
 .. _`Emotion Model`: https://huggingface.co/MilaNLProc/feel-it-italian-emotion
+.. _Federico Bianchi: https://federicobianchi.io
+.. _Debora Nozza: https://dnozza.github.io/
+.. _Dirk Hovy: https://dirkhovy.com/
