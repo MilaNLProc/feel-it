@@ -16,6 +16,10 @@ FEEL-IT: Emotion and Sentiment Classification for the Italian Language
 .. image:: https://colab.research.google.com/assets/colab-badge.svg
     :target: https://colab.research.google.com/drive/1e8h__sK73r4uwknxRJfsCMC36dLuZBa8?usp=sharing
     :alt: Colab Tutorial
+    
+.. image:: https://raw.githubusercontent.com/aleen42/badges/master/src/medium.svg
+    :target: https://towardsdatascience.com/sentiment-analysis-and-emotion-recognition-in-italian-using-bert-92f5c8fe8a2
+    :alt: Medium Blog Post
 
 Abstract
 --------
