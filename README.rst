@@ -30,7 +30,10 @@ An abundance of approaches has been introduced for tackling both tasks. However,
 
 We release an open-source Python library, so researchers can use a model trained on FEEL-IT for inferring both sentiments and emotions from Italian text.
 
+Data Access
+-----------
 
+Send us an email :)
 
 Features
 --------
