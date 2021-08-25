@@ -125,6 +125,12 @@ Note
 
 Remember that this is a research tool :)
 
+
+Other Resources
+---------------
+
++ https://github.com/RacheleSprugnoli/Esercitazioni_SA (very nice dataset for emotion analysis)
+
 Credits
 -------
 
