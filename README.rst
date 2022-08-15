@@ -30,6 +30,13 @@ An abundance of approaches has been introduced for tackling both tasks. However,
 
 We release an open-source Python library, so researchers can use a model trained on FEEL-IT for inferring both sentiments and emotions from Italian text.
 
+License
+-------
+
+Code comes from HuggingFace and thus our License is an MIT license.
+
+For models restriction may apply on the data (which are derived from existing datasets) or Twitter (main data source). We refer users to the original licenses accompanying each dataset and Twitter regulations.
+
 Data Access
 -----------
 
