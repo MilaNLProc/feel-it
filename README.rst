@@ -40,7 +40,7 @@ For models restrictions may apply on the data (which are derived from existing d
 Data Access
 -----------
 
-Send us an email :)
+Fill out this [form](https://forms.gle/FBzNxyFUL8MXe4pE9) to access the dataset, an email notification will be sent with the data. 
 
 Features
 --------
